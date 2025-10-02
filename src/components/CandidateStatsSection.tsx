@@ -12,18 +12,7 @@ import {
   Cell,
   ResponsiveContainer,
 } from "recharts";
-import {
-  Users,
-  CheckCircle,
-  Award,
-  DollarSign,
-  Vote,
-  TrendingUp,
-  FileText,
-  Search,
-  Filter,
-  BarChart3,
-} from "lucide-react";
+import { Users, CircleCheck as CheckCircle, Award, DollarSign, Vote, TrendingUp, FileText, Search, Filter, ChartBar as BarChart3 } from "lucide-react";
 import { useGetCandidateStatsQuery } from "../store/api/baseApi";
 import { useSearchCandidatesQuery } from "../store/api/payments_api";
 import { useNavigate } from "react-router-dom";

@@ -3,25 +3,7 @@ import { saveAs } from "file-saver";
 import * as XLSX from "xlsx";
 import jsPDF from "jspdf";
 import "jspdf-autotable";
-import {
-  Search,
-  Download,
-  Filter,
-  DollarSign,
-  Users,
-  Percent,
-  Target,
-  Calendar,
-  TrendingUp,
-  PieChart,
-  BarChart3,
-  FileText,
-  Printer,
-  RefreshCw,
-  ChevronDown,
-  X,
-  Eye,
-} from "lucide-react";
+import { Search, Download, Filter, DollarSign, Users, Percent, Target, Calendar, TrendingUp, ChartPie as PieChart, ChartBar as BarChart3, FileText, Printer, RefreshCw, ChevronDown, X, Eye } from "lucide-react";
 import {
   useGetFeesQuery,
   useGetPaymentsQuery,

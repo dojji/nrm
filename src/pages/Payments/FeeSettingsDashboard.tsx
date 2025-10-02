@@ -1,15 +1,6 @@
 import { useState, useMemo, useEffect } from "react";
 import { GridColDef } from "@mui/x-data-grid";
-import {
-  CheckCircle,
-  AlertCircle,
-  PencilIcon,
-  History,
-  X,
-  Plus,
-  Filter,
-  Save,
-} from "lucide-react";
+import { CircleCheck as CheckCircle, CircleAlert as AlertCircle, Pencil as PencilIcon, History, X, Plus, Filter, Save } from "lucide-react";
 import CustomDataGrid from "../../components/CustomDataGrid";
 import {
   useGetFeesQuery,

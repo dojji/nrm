@@ -7,7 +7,7 @@ import {
   useGetDistrictsQuery,
   useGetSubregionsQuery,
 } from "../store/api/baseApi";
-import { AlertCircle, CheckCircle, Edit, Trash, X } from "lucide-react";
+import { CircleAlert as AlertCircle, CircleCheck as CheckCircle, CreditCard as Edit, Trash, X } from "lucide-react";
 
 interface User {
   id: string;

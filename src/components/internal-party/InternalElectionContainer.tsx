@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { AlertCircle, CheckCircle } from "lucide-react";
+import { CircleAlert as AlertCircle, CircleCheck as CheckCircle } from "lucide-react";
 import Loading from "../Loading";
 import InternalPartyFilters from "./InternalPartyFilters";
 import GenericInternalTable from "./GenericInternalTable";

@@ -9,7 +9,7 @@ import CustomDataGrid from "../../components/CustomDataGrid";
 import { GridColDef } from "@mui/x-data-grid";
 import Loading from "../../components/Loading";
 import RegistrarForm from "../../components/RegistrarForm";
-import { Plus, Edit2 } from "lucide-react";
+import { Plus, CreditCard as Edit2 } from "lucide-react";
 
 // Add interface for filters
 interface Filters {

@@ -1,21 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../store";
-import {
-  LayoutDashboard,
-  BarChart2,
-  Users,
-  ChevronDown,
-  ChevronUp,
-  Globe,
-  PieChart,
-  Folders,
-  Menu,
-  X,
-  Wallet,
-  Vote,
-  FileHeart,
-} from "lucide-react";
+import { LayoutDashboard, ChartBar as BarChart2, Users, ChevronDown, ChevronUp, Globe, ChartPie as PieChart, Folders, Menu, X, Wallet, Vote, FileHeart } from "lucide-react";
 import { useState } from "react";
 
 interface SidebarLink {

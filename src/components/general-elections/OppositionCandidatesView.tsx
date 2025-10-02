@@ -5,7 +5,7 @@ import {
   Table, TableBody, TableCell, TableContainer, 
   TableHead, TableRow, CircularProgress 
 } from '@mui/material';
-import { X, Edit, Trash2, Vote } from 'lucide-react';
+import { X, CreditCard as Edit, Trash2, Vote } from 'lucide-react';
 import { 
   useGetOppositionCandidates, 
   useDeleteOppositionCandidate,

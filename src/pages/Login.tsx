@@ -3,7 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { useLoginMutation } from "../store/api/authApi";
 import { useDispatch } from "react-redux";
 import { setCredentials } from "../store/slices/authSlice";
-import { AlertCircle } from "lucide-react";
+import { CircleAlert as AlertCircle } from "lucide-react";
 import Loading from "../components/Loading";
 
 export default function Login() {

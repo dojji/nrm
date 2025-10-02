@@ -1,14 +1,5 @@
 import React, { useMemo } from "react";
-import {
-  PieChart as PieChartIcon,
-  BarChart3,
-  TrendingUp,
-  Calendar,
-  Users,
-  DollarSign,
-  Target,
-  Activity,
-} from "lucide-react";
+import { ChartPie as PieChartIcon, ChartBar as BarChart3, TrendingUp, Calendar, Users, DollarSign, Target, Activity } from "lucide-react";
 import {
   PieChart,
   Pie,

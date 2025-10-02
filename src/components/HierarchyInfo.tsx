@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Building2, MapPin, Map, LandPlot, Home, Trees, ChevronDown, ChevronUp } from 'lucide-react';
+import { Building2, MapPin, Map, LandPlot, Chrome as Home, Trees, ChevronDown, ChevronUp } from 'lucide-react';
 
 interface HierarchyItem {
   label: string;

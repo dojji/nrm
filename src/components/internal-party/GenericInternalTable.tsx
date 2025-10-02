@@ -1,5 +1,5 @@
 import React from "react";
-import { Edit, Trash, Search, X } from "lucide-react";
+import { CreditCard as Edit, Trash, Search, X } from "lucide-react";
 import CustomDataGrid from "../CustomDataGrid";
 import { GridColDef } from "@mui/x-data-grid";
 import { IconButton } from "@mui/material";

@@ -1,8 +1,5 @@
 import React, { useState } from "react";
-import { 
-  Vote, Trash2, Search, Info, 
-  UserPlus, Edit, UserX 
-} from "lucide-react";
+import { Vote, Trash2, Search, Info, UserPlus, CreditCard as Edit, UserX } from "lucide-react";
 import CustomDataGrid from "../CustomDataGrid";
 import { GridColDef } from "@mui/x-data-grid";
 import { IconButton, Tooltip, Box } from "@mui/material";

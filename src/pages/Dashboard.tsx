@@ -3,18 +3,7 @@ import {
   useGetDashboardStatsQuery,
 } from "../store/api/baseApi";
 import { useNavigate } from "react-router-dom";
-import {
-  Building2,
-  MapPin,
-  Map,
-  LandPlot,
-  Home,
-  Trees,
-  FileText,
-  DollarSign,
-  Users,
-  BarChart3,
-} from "lucide-react";
+import { Building2, MapPin, Map, LandPlot, Chrome as Home, Trees, FileText, DollarSign, Users, ChartBar as BarChart3 } from "lucide-react";
 import { useEffect } from "react";
 import {
   BarChart,

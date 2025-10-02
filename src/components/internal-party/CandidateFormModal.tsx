@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { X, AlertCircle } from "lucide-react";
+import { X, CircleAlert as AlertCircle } from "lucide-react";
 import {
   useGetRegionsQuery,
   useGetSubregionsQuery,

@@ -7,7 +7,7 @@ import {
   useGetSubregionsQuery,
   useGetRegionsQuery,
 } from "../../store/api/baseApi";
-import { AlertCircle, CheckCircle, Edit, Trash, X, Search } from "lucide-react";
+import { CircleAlert as AlertCircle, CircleCheck as CheckCircle, CreditCard as Edit, Trash, X, Search } from "lucide-react";
 import Loading from "../../components/Loading";
 import CustomDataGrid from "../../components/CustomDataGrid";
 import { GridColDef } from "@mui/x-data-grid";

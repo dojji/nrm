@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Search, Plus, Edit2 } from "lucide-react";
+import { Search, Plus, CreditCard as Edit2 } from "lucide-react";
 import { GridColDef } from "@mui/x-data-grid";
 import {
   useGetPollingStationsQuery,
